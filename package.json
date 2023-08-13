@@ -8,8 +8,7 @@
   "private": true,
   "scripts": {
     "compile": "npx hardhat compile",
-    "source": "npx hardhat sourcify",
-    "deploy": "npx hardhat run scripts/deploy.ts && npm run source"
+    "deploy": "npx hardhat run scripts/deploy.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
