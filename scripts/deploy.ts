@@ -5,7 +5,7 @@ async function main() {
     "AttestationStation",
     "ATTEST",
   ])
-  await AttestationStation.deployed()
+  await AttestationStation.deplo()
 
   console.log("AttestationStation deployed to:", AttestationStation.address);
 }
